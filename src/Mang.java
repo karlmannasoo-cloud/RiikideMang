@@ -99,7 +99,7 @@ public class Mang {
 
     private Pealinn valiJuhuslikPealinn() {
         int indeks = random.nextInt(pealinnad.size());
-        return pealinnad.get(indeks);
+        return pealinnad.remove(indeks);
     }
     public int getPunktid() {
         return punktid;
